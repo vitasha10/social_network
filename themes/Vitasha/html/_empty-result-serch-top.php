@@ -1,0 +1,1 @@
+<div style="padding:30px 10px 50px; text-align:center;"><?php echo $this->lang('global_search_top_result_empty')?></div>

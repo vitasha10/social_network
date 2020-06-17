@@ -1,0 +1,183 @@
+/*************************************************/
+/*************************************************/
+/* Styles for Tablets - TABLET LAYOUT */
+/*************************************************/
+/*************************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    #topbar-basic .spacetop{ width:768px; }
+    
+    #site-all-content #site-main-area{ width:768px; }
+    
+	/***************************************************/
+
+	#topbar .spacetop{ width:768px; padding-right:0; }
+	#topbar .spacetop #area-menu-more{ max-width:768px; }
+	#topbar .spacetop #area-notif-people{ max-width:768px; }
+	#topbar .spacetop #area-notif-message{ max-width:768px; }
+	#topbar .spacetop #area-notif-global{ max-width:768px; }
+
+	#sidebar-chat{ display:none; }
+	
+	/***************************************************/
+	
+	#dashboard-main-area{ width:768px; padding-right:0px; }
+	#dashboard-main-area #dashboard-main-area-left{ display:none; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft .opc-menu-left .ico-mini{ width:100%; text-align:center; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft .opc-menu-left .txt-opc{ display:none; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft .opc-menu-left .txt-notif{ display:none; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft .titleseparator{ font-weight:normal; letter-spacing:normal; text-transform: none; font-size:10px; padding-left:0px; text-align:center; }
+
+	/***************************************************/
+		
+	#dashboard-main-area #dashboard-main-area-left #menuleft #left-infouser{ padding:10px 0; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft #left-infouser #avatar{ float:none; width:100%; text-align:center; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft #left-infouser #username{ display:none; }
+
+    #dashboard-main-area #dashboard-main-area-left #menuleft .opc-menu-left .txt-notif{ display:none !important; }
+
+	/***************************************************/
+    
+    #dashboard-main-area #dashboard-main-area-left #menuleft-admin{ width:164px; }
+
+	/***************************************************/
+
+    #dashboard-main-area #dashboard-main-area-left #menuleft-setting{ width:164px; }
+
+	/***************************************************/
+	
+    #dashboard-main-area #dashboard-main-area-right #dashboard-main-center{ margin-left:0px; }
+	#dashboard-main-area #dashboard-main-area-right #dashboard-main-right{ width:262px; }
+
+	/***************************************************/
+    
+	#dashboard-main-area #dashboard-main-area-right #admin-main-area{ margin-left:0; width:768px; }
+    
+	#dashboard-main-area #dashboard-main-area-right #setting-main-area{ margin-left:0px; width:768px; }
+
+	/***************************************************/
+    
+    #dashboard-main-area #dashboard-main-area-right #dashboard-one-space{ margin-left:0px; width:768px; }
+
+	/***************************************************/
+    
+    #dashboard-main-area #dashboard-main-area-right #dashboard-special-center{ width:580px; }
+	
+	/***************************************************/
+    
+	#topbar .spacetop #logo{ width:50px; line-height:53px; }
+	#topbar .spacetop #logo #logo-normal{ display:none; }
+	#topbar .spacetop #logo #logo-mini{ display:block; }
+
+	/***************************************************/
+
+    #topbar .spacetop #bar-search-top{ }
+    #topbar .spacetop #bar-search-top #input-search-top{ width:280px; }
+
+    #topbar .spacetop #bar-search-top #area-results-search{ width:280px; }
+
+	/***************************************************/
+
+    #profile-main #profile-main-area-left{ width:100%; }
+    #profile-main #profile-main-area-right{ display:none; }
+    
+    #profile-main #profile-main-area-left #profile-content-area-left{ width:262px; }
+    #profile-main #profile-main-area-left #profile-content-area-right{ width:496px; }
+    
+    #profile-main #profile-main-area-left #profile-settings-area-left{ width:162px; }
+    #profile-main #profile-main-area-left #profile-settings-area-right{ width:596px; }
+
+
+
+	/***************************************************/
+
+	#foot-nologin{ width:768px; }
+    
+	/***************************************************/
+
+    .zoomeer-box .zoomeer-box-container{ width:768px; }
+
+    .zoomeer-box .zoomeer-box-container .zoomeer-box-preview{ width:65%; }
+    .zoomeer-box .zoomeer-box-container .zoomeer-box-data{ width:35%; }
+
+    .zoomeer-box-basic .zoomeer-box-container{ width:768px; }
+
+	/***************************************************/
+
+    #profile-header #cover-header{ height:197px; }
+
+    #profile-header #cover-header.with_cover{ height:302px !important; }
+    
+    #profile-header #cover-header #shadow-header{ height:302px !important;  }
+    
+    #profile-header #username-header{ width:480px; }
+    
+    #profile-header #username-header.ingroup{ left:20px !important; bottom:80px !important; line-height:24px !important; width:650px; }
+
+	/***************************************************/
+
+    #posts-main #posts-main-left{ display:none; }
+    #posts-main #posts-main-right #space-main-center{ margin-left:0; }
+	#posts-main #posts-main-right #space-main-right{ width:262px; }
+
+	/***************************************************/
+    
+    .one_photo_in_profile .photo_in_profile{ width:179px; height:179px; } 
+
+	/***************************************************/
+    
+    #dashboard-2-parts #dashboard-2-parts-left{ width:556px; }
+    #dashboard-2-parts #dashboard-2-parts-right{ width:202px; }
+
+	/***************************************************/
+    
+    #messages-2-parts #messages-2-parts-left{ width:252px; }
+    #messages-2-parts #messages-2-parts-right{ width:506px; }
+
+	/***************************************************/
+
+    .onlycontainer-basic{ width: 500px; }
+    
+
+	/***************************************************/
+        
+    #site-2-parts #site-2-parts-left{ width:478px; }
+    #site-2-parts #site-2-parts-right{ width:280px; }
+
+
+    .no_in_tablet{ display:none; }
+    .yes_in_tablet{ display:block; }
+    
+    /***************************************************/
+    
+    #dash-menu-responsive{ display:block; }
+
+    /***************************************************/
+    
+    .listmarketplace .one-item-market .container-info{ width:186px; height:300px; }
+    .listmarketplace .one-item-market .container-image .theimage{ width:186px; height:233px; }
+
+    /***************************************************/
+
+    .listlibrary .one-item-library .container-info{ width:379px; height:325px; }
+    .listlibrary .one-item-library .container-image .theimage{ width:379px; height:200px; }
+
+    /***************************************************/
+
+    .listgames .one-item-game{ margin-left:8px; margin-right:8px; }
+    
+
+    /**********************************/
+    /* Version 1.2.0 */
+
+    #profile-header #username-header.inevent{ left:20px !important; bottom:80px !important; line-height:24px !important; width:730px; }
+
+
+    /* End Version 1.2.0 */
+    /**********************************/
+
+}
+
+/* END TABLET LAYOUT */
+/*************************************************/

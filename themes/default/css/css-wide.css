@@ -1,0 +1,48 @@
+/*************************************************/
+/*************************************************/
+/* Styles for Wide Screens - WIDE DESKTOP LAYOUT */
+/*************************************************/
+/*************************************************/
+
+@media only screen and (min-width: 1176px) {
+
+	#topbar .spacetop{ padding-right:205px; }
+
+	/*************************************************/
+	
+	#sidebar-chat{ width:205px; }
+	
+    #sidebar-chat #boxsearch{ background-color:#FAFBFB; position: absolute; bottom:0; width: 100%;  box-sizing:border-box; height:30px; } 
+    
+    #sidebar-chat #boxsearch #ico-search-chat{ padding-left:10px; left:0; }
+    
+    #sidebar-chat #boxsearch #input-search-chat{ width:80%; left:0; }
+    
+    #sidebar-chat #boxsearch #input-search-chat input{ padding:1px 5px 4px; width:95% }
+    
+    .onechat-max .ch-name{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#333; padding-left:10px; display:block; }
+    
+	/*************************************************/
+	
+	#dashboard-main-area{ padding-right:205px; }
+	
+	/*************************************************/
+    
+    #users-box-chat-bottom{ display:none; }
+    
+	/*************************************************/
+    
+    .zoomeer-box .zoomeer-box-container{ width:1170px; }
+    
+    .zoomeer-box-basic .zoomeer-box-container{ width:1170px; }
+
+
+	/*************************************************/
+
+    .onlycontainer-basic{ width: 900px; }
+    
+    /*************************************************/
+    
+    #dash-menu-responsive{ display:none !important; }
+	
+}

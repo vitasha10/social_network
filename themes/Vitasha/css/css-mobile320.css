@@ -1,0 +1,426 @@
+/*************************************************/
+/*************************************************/
+/* Styles for Mobiles - MOBILE LAYOUT (PORTRAIT/320PX) - Smartphone Vertical */
+/*************************************************/
+/*************************************************/
+
+@media only screen and (max-width: 767px) {
+
+    #topbar-basic .spacetop{ width:300px; }
+    #topbar-basic .spacetop #logo{ width:50px; }
+	#topbar-basic .spacetop #logo #logo-normal{ display:none; }
+    #topbar-basic .spacetop #logo #logo-mini{ display:block; }
+    
+    #site-all-content #site-main-area{ width:300px; }
+
+	/***************************************************/
+
+	#topbar .spacetop{ width:300px; padding-right:0; }
+	#topbar .spacetop #logo{ width:50px; line-height:53px; }
+	#topbar .spacetop #logo #logo-normal{ display:none; }
+	#topbar .spacetop #logo #logo-mini{ display:block; }
+
+	#topbar .spacetop #options_top .ico-top{ margin-left:13px; }
+	
+	#topbar .spacetop #area-menu-more{ max-width:300px; }
+	#topbar .spacetop #area-notif-people{ max-width:300px; }
+	#topbar .spacetop #area-notif-message{ max-width:300px; }
+	#topbar .spacetop #area-notif-global{ max-width:300px; }
+
+    #topbar .spacetop #bar-search-top{ display:none; }
+    #topbar .spacetop #bar-search-top #area-results-search{ display:none; }    
+    #topbar .spacetop #options_top #ico-search-top{ display:block; }
+    
+    #opt-user-top .the_name{ display:none; }
+
+	#topbar .spacetop #area-notif-people #content-area-notif-people{ max-width: 250px; }
+	#topbar .spacetop #area-notif-message #content-area-notif-message{ max-width: 250px; }
+	#topbar .spacetop #area-notif-global #content-area-notif-global{ max-width: 250px; }
+
+	#topbar .spacetop #area-notif-people #content-area-notif-people:before{ margin-left:90px; }
+	#topbar .spacetop #area-notif-message #content-area-notif-message:before{ margin-left:124px; }
+	#topbar .spacetop #area-notif-global #content-area-notif-global:before{ margin-left:161px; }
+
+    .count-notif{ right:-2px; }
+
+	#sidebar-chat{ display:none; }
+	
+	/***************************************************/
+    
+    .inhome .space-botons .one-boton{ padding:0 5px; }
+    
+    .inhome .space-message{ padding:0 40px; }
+    
+    .inhome .space-message .message1{ font-size:25px; }
+    .inhome .space-message .message2{ font-size:15px; }
+
+	/***************************************************/
+	
+	#area-register{ width:300px; }
+	
+	#area-login{ width:300px; }
+	
+	#area-resetpass{ width:300px; }
+
+	/***************************************************/
+	
+	#dashboard-main-area{ width:300px; padding-right:0px; }
+	#dashboard-main-area #dashboard-main-area-left{ display:none; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft .opc-menu-left .ico-mini{ width:100%; text-align:center; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft .opc-menu-left .txt-opc{ display:none; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft .opc-menu-left .txt-notif{ display:none; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft .titleseparator{ font-weight:normal; letter-spacing:normal; text-transform: none; font-size:10px; padding-left:0px; text-align:center; }
+
+	/***************************************************/
+
+	#dashboard-main-area #dashboard-main-area-left #menuleft-admin .opc-menu-left .ico-mini{ width:100%; text-align:center; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft-admin .opc-menu-left .txt-opc{ display:none; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft-admin .opc-menu-left .txt-notif{ display:none; }
+
+	/***************************************************/
+
+	#dashboard-main-area #dashboard-main-area-left #menuleft-setting .opc-menu-left .ico-mini{ width:100%; text-align:center; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft-setting .opc-menu-left .txt-opc{ display:none; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft-setting .opc-menu-left .txt-notif{ display:none; }
+
+	/***************************************************/
+	
+	#dashboard-main-area #dashboard-main-area-left #menuleft #left-infouser{ padding:10px 0; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft #left-infouser #avatar{ float:none; width:100%; text-align:center; }
+	#dashboard-main-area #dashboard-main-area-left #menuleft #left-infouser #username{ display:none; }
+
+    #dashboard-main-area #dashboard-main-area-left #menuleft .opc-menu-left .txt-notif{ display:none !important; }
+
+	/***************************************************/
+	
+	#dashboard-main-area #dashboard-main-area-right #dashboard-main-center{ width:300px; margin-right:0; margin-left:0; }
+	#dashboard-main-area #dashboard-main-area-right #dashboard-main-right{ display:none; }
+    
+	#dashboard-main-area #dashboard-main-area-right #admin-main-area{ margin-right:0; width:300px; margin-left:0; }
+    #dashboard-main-area #dashboard-main-area-right #admin-main-area .space-in-admin{ width:100%; }
+
+	#dashboard-main-area #dashboard-main-area-right #setting-main-area{ margin-right:0; width:300px; margin-left:0; }
+    #dashboard-main-area #dashboard-main-area-right #setting-main-area .space-in-setting{ width:100%; }
+	
+	/***************************************************/
+    
+    #dashboard-main-area #dashboard-main-area-right #dashboard-one-space{ margin-left:0px; width:300px; }
+	
+	/***************************************************/
+    
+    #dashboard-main-area #dashboard-main-area-right #dashboard-special-center{ float:none; width:300px; margin-left:0; margin-right:0; }
+    #dashboard-main-area #dashboard-main-area-right #dashboard-special-right{ display:none; }
+
+	/***************************************************/
+    
+	#foot-nologin{ width:300px; }
+    
+	/***************************************************/
+
+    #activity-editor #activity-editor-top #menu-tab-editor .opc-tab-editor{ padding-left:8px !important; }
+    #activity-editor #activity-editor-top #menu-tab-editor .opc-tab-editor .txt_opc_editor{ display:none !important; }
+    #activity-editor #activity-editor-top #menu-tab-editor .space-tab{ margin-left:40px; }
+    
+    #activity-editor #activity-editor-bottom #area-send #bottom-send{ padding:0px 5px; width:40px; }
+    #activity-editor #activity-editor-bottom #bottom-accesories #icons .ico-attach{ padding:10px 3px; }
+    
+    #activity-editor #activity-editor-bottom #bottom-accesories #icons .ico-attach-first{ padding:9px 0px; width:25px; }
+    #activity-editor #activity-editor-bottom #bottom-accesories #icons .ico-attach-first ._a ._b ._c{ width:25px; height:30px; }
+
+	/***************************************************/
+
+    #box_alert{ width:280px; margin-top:100px; }
+    
+    #box_confirm{ width:280px; margin-top:100px; }
+
+	/***************************************************/
+    
+    #profile-main #profile-main-area-left{ width:300px; }
+    #profile-main #profile-main-area-right{ display:none; }
+
+    #profile-main #profile-content-area-right{ float:none !important; width:100% !important; }
+    #profile-main #profile-content-area-left{ display:none; }
+    
+    #profile-main #profile-main-area-left #profile-settings-area-left{ float:none !important; width:100% !important; margin-bottom:15px; }
+    #profile-main #profile-main-area-left #profile-settings-area-right{ width:100% !important; }
+
+
+	/***************************************************/
+
+    .the_media_photo .one_land{ width:280px; height:173px; }
+    #profile-content-area .the_media_photo .one_land{ width:280px; height:173px; }
+    .the_media_photo .one_vert{ width:260px; height:347px; }
+
+    .the_media_photo .one_land_shared{ width:257px; height:159px; }
+    #profile-content-area .the_media_photo .one_land_shared{ width:257px; height:159px; }
+
+    
+    .the_media_photo .two_land{ width:280px; height:140px; }
+    #profile-content-area .the_media_photo .two_land{ width:280px; height:140px; }
+    .the_media_photo .two_vert{ width:138px; height:183px; }
+    #profile-content-area .the_media_photo .two_vert{ width:138px; height:183px; }
+
+    .the_media_photo .two_land_shared{ width:258px; height:129px; }
+    #profile-content-area .the_media_photo .two_land_shared{ width:258px; height:129px; }
+    .the_media_photo .two_vert_shared{ width:127px; height:169px; }
+    #profile-content-area .the_media_photo .two_vert_shared{ width:127px; height:169px; }
+    
+    .the_media_photo .three_vert_block1 .three_vert_1{ width:155px; height:210px; }
+    #profile-content-area .the_media_photo .three_vert_block1 .three_vert_1{ width:155px; height:210px; }
+    .the_media_photo .three_vert_block2 .three_vert_2{ width:120px; height:103px; }
+    #profile-content-area .the_media_photo .three_vert_block2 .three_vert_2{ width:120px; height:103px; }
+
+    .the_media_photo .three_vert_block1 .three_vert_1_shared{ width:145px; height:193px; }
+    #profile-content-area .the_media_photo .three_vert_block1 .three_vert_1_shared{ width:145px; height:193px; }
+    .the_media_photo .three_vert_block2 .three_vert_2_shared{ width:108px; height:95px; }
+    #profile-content-area .the_media_photo .three_vert_block2 .three_vert_2_shared{ width:108px; height:95px; }
+    
+    .the_media_photo .three_land_block1 .three_land_1{ width:279px; height:135px; }
+    #profile-content-area .the_media_photo .three_land_block1 .three_land_1{ width:279px; height:135px; }
+    .the_media_photo .three_land_block2 .three_land_2{ width:137px; height:135px; }
+    #profile-content-area .the_media_photo .three_land_block2 .three_land_2{ width:137px; height:135px; }
+
+    .the_media_photo .three_land_block1 .three_land_1_shared{ width:258px; height:128px; }
+    #profile-content-area .the_media_photo .three_land_block1 .three_land_1_shared{ width:258px; height:128px; }
+    .the_media_photo .three_land_block2 .three_land_2_shared{ width:126px; height:126px; }
+    #profile-content-area .the_media_photo .three_land_block2 .three_land_2{ width:137px; height:135px; }
+
+    .the_media_photo .four_vert_block1 .four_vert_1{ width:182px; height:276px; }
+    #profile-content-area .the_media_photo .four_vert_block1 .four_vert_1{ width:182px; height:276px; }
+    .the_media_photo .four_vert_block2 .four_vert_2{ width:93px; height:90px; }
+    #profile-content-area .the_media_photo .four_vert_block2 .four_vert_2{ width:93px; height:90px; }
+    .the_media_photo .four_vert_block2 .four_vert_2_more{ width:93px; height:90px; }
+    #profile-content-area .the_media_photo .four_vert_block2 .four_vert_2_more{ width:93px; height:90px; }
+
+    .the_media_photo .four_vert_block1 .four_vert_1_shared{ width:170px; height:256px; }
+    #profile-content-area .the_media_photo .four_vert_block1 .four_vert_1_shared{ width:170px; height:256px; }
+    .the_media_photo .four_vert_block2 .four_vert_2_shared{ width:83px; height:83px; }
+    #profile-content-area .the_media_photo .four_vert_block2 .four_vert_2_shared{ width:83px; height:83px; }
+    .the_media_photo .four_vert_block2 .four_vert_2_more_shared{ width:83px; height:83px; }
+    #profile-content-area .the_media_photo .four_vert_block2 .four_vert_2_more_shared{ width:83px; height:83px; }
+    
+    .the_media_photo .four_land_block1 .four_land_1{ width:279px; height:139px; }
+    #profile-content-area .the_media_photo .four_land_block1 .four_land_1{ width:279px; height:139px; }
+    .the_media_photo .four_land_block2 .four_land_2{ width:90.5px; height:89px; }
+    #profile-content-area .the_media_photo .four_land_block2 .four_land_2{ width:90.5px; height:89px; }
+    .the_media_photo .four_land_block2 .four_land_2_more{  width:90.5px; height:89px; }
+    #profile-content-area .the_media_photo .four_land_block2 .four_land_2_more{  width:90.5px; height:89px; }
+
+    .the_media_photo .four_land_block1 .four_land_1_shared{ width:258px; height:128px; }
+    #profile-content-area .the_media_photo .four_land_block1 .four_land_1_shared{ width:258px; height:128px; }
+    .the_media_photo .four_land_block2 .four_land_2_shared{ width:83px; height:83px; }
+    #profile-content-area .the_media_photo .four_land_block2 .four_land_2_shared{ width:83px; height:83px; }
+    .the_media_photo .four_land_block2 .four_land_2_more_shared{  width:83px; height:83px; }
+    #profile-content-area .the_media_photo .four_land_block2 .four_land_2_more_shared{  width:83px; height:83px; }
+
+
+    .the_media_photo .space_for_more{ font-size: 25px; }
+
+	/***************************************************/
+
+    .zoomeer-box .zoomeer-box-container{ width:300px; }
+    .zoomeer-box .zoomeer-box-container .zoomeer-box-preview{ float:none; width:100%; height:100%; }
+    .zoomeer-box .zoomeer-box-container .zoomeer-box-data{ float:none; width:100%; margin-bottom:40px; }
+
+    .zoomeer-box-basic .zoomeer-box-container{ width:300px; }
+
+    .box-activity .ba-bottom .ba-actions .opcaction .act-text{ display:none; }
+
+    .box-activity .ba-bottom .ba-areainputcomment .comment-input textarea{ padding: 7px 83px 7px 7px; }
+    .box-activity .ba-bottom .ba-areainputcomment .comment-input .input-more{ right:3px; }
+    .box-activity .ba-bottom .ba-areainputcomment .comment-input .input-more .ico-attach{ padding: 8px 3px; }
+    .box-activity .ba-bottom .ba-areainputcomment .comment-input .input-more .ico-smiles{ padding: 8px 3px; }
+    .box-activity .ba-bottom .ba-areainputcomment .comment-input .input-more .ico-stickerscom{ padding: 8px 3px; }
+
+	/***************************************************/
+    
+    .table-list-3col .avatar{ width:25%; }
+    .table-list-3col .name{ width:75%; }
+    .table-list-3col .actions{ width:0%; display:none; }
+    .table-list-3col .actions2{ display:block; }
+
+    .table-list-2col .name{ width:100%; padding:5px 5px 5px 0; }
+    .table-list-2col .actions{ width:0%; display:none; }
+    .table-list-2col .actions2{ display:block; }
+
+	/***************************************************/
+
+    #profile-header #avatar-header{ left: 13px; }
+
+    #profile-header #cover-header{ height:118px; }
+    #profile-header #cover-header.with_cover{ height:118px !important; }
+    
+    #profile-header #cover-header #shadow-header{ height:118px !important;  }
+    
+    #profile-header #username-header{ left:120px; bottom:55px; font-size:16px; width:150px; line-height:18px; }
+    #profile-header #username-header.with_verified{ bottom:40px !important; }
+    
+    #profile-header #username-header.ingroup{ left:15px !important; bottom:72px !important; width:230px; }
+    #profile-header #type-group{ left:15px; bottom:50px; color: #fff; font-size:15px; }
+    
+    #profile-header #username-header.inpage{ bottom:65px !important; line-height:18px !important; }
+    #profile-header #username-header.inpage.with_verified{ bottom:60px !important; }
+    #profile-header #category-page{ left:120px; bottom:50px; font-size: 14px; }
+    
+    #profile-header #avatar-header{ width:96px; height:96px; }
+    #profile-header #avatar-header #the-photo-avatar{ width:88px; height:88px; }
+
+    #profile-header #cover-bottom #area-menu-header{ padding-left:120px; }
+    
+    #profile-header #cover-bottom #area-menu-header .one-option{ padding: 0 7px; }
+    
+    #profile-header #cover-bottom #area-menu-header .one-option.ingroup{ padding: 0 17px; }
+    
+    .no_in_movil{ display:none; }
+    .yes_in_movil{ display:block; }
+
+	/***************************************************/
+    
+	#item-card{ max-width: 250px; }
+
+	/***************************************************/
+
+    #posts-main #posts-main-left{ display:none; }
+    #posts-main #posts-main-right #space-main-center{ width:300px; margin-right:0; margin-left:0; }
+	#posts-main #posts-main-right #space-main-right{ display:none; }
+
+	/***************************************************/
+    
+    .oneuser_edge{ float:none; width:100%; }
+    .oneuser_edge{ padding-right:0; }
+
+    /***************************************************/
+
+    .one_photo_in_profile .photo_in_profile{ width:129px; height:129px; } 
+
+    /***************************************************/
+    
+    #dashboard-2-parts #dashboard-2-parts-left{ width:300px; }
+    #dashboard-2-parts #dashboard-2-parts-right{ display:none; }
+
+    /***************************************************/
+    
+    #messages-2-parts #messages-2-parts-left{ float:none; width:100%; margin-bottom:20px; }
+    #messages-2-parts #messages-2-parts-right{ width:100%; }
+
+    #messages-2-parts #messages-2-parts-left .container-inbox{ height:45vh; }
+    #messages-2-parts #messages-2-parts-right .container-body{ height:45vh; }
+
+    /***************************************************/
+
+    .onlycontainer-basic{ width: 250px; }
+    
+    
+    /***************************************************/
+
+        
+    #site-2-parts #site-2-parts-left{ float:none; width:100%; }
+    #site-2-parts #site-2-parts-right{ display:none; }
+
+    /***************************************************/
+
+    .onepage_profile{ float:none; width:100%; padding-right:0; }
+
+    .onegroup_profile{ float:none; width:100%; padding-right:0; }
+    
+    
+    
+    .menusmiles:before { right:49px; }
+    .menusmiles:after { right:50px; }
+    
+    .menusmiles.inmedia:before { right:23px; }
+    .menusmiles.inmedia:after { right:24px; }
+    
+    .menustickers-comment:before { left:232px; }
+    .menustickers-comment:after { left:233px; }
+
+    .menustickers-comment.inzoom:before { left:225px; }
+    .menustickers-comment.inzoom:after { left:226px; }
+    
+    
+    /***************************************************/
+    
+    #dash-menu-responsive{ display:block; }
+    
+    /***************************************************/
+    
+    .space-the-directory{ margin-bottom:20px; }
+    .space-the-directory .one-item-directory .container-info{ height:132px; width:132px; }
+    .space-the-directory .one-item-directory .container-image .img{ height:132px; width:132px; }
+
+    /***************************************************/
+
+    .the_event_in_post .inside-ev-p .the-avat{ height:109px; }
+    
+    .the_event_in_post .inside-ev-p .space-info .thearea1{ width:50px; }
+    .the_event_in_post .inside-ev-p .space-info .thearea1 .themonth{ font-size:13px; }
+    .the_event_in_post .inside-ev-p .space-info .thearea1 .thenumber{ font-size:23px; }
+    .the_event_in_post .inside-ev-p .space-info .thearea2{ padding:0 0 0 50px; }
+
+    /***************************************************/
+        
+    .listmarketplace .one-item-market .container-info{ width:145px; height:250px; }
+    .listmarketplace .one-item-market .container-image .theimage{ width:145px; height:183px; }
+
+    /***************************************************/
+    
+    .product-in-post .area1{ float:none; }
+    .product-in-post .area1 .container-image .theimage{ width:277px; height:200px; }    
+    .product-in-post .area2{ padding:10px; }
+    
+    /***************************************************/
+    
+    .listlibrary .one-item-library .container-info{ width:300px; height:325px; }
+    .listlibrary .one-item-library .container-image .theimage{ width:300px; height:200px; }
+
+    /***************************************************/
+    
+    .more-info-event .spacetop{ padding:5px 0 20px; margin-bottom:10px; font-size:13px; text-align:left; }
+    
+    .more-info-event .space01{ float:none; width:100%; padding-right:0px; margin-bottom:20px; }
+    .more-info-event .space02{ float:none; width:100%; text-align:left; padding-left:0px;  margin-bottom:10px; }
+
+    /***************************************************/
+
+    #space-photos-album .onephoto .img_photo{ width:105px; height:105px; }
+
+    /***************************************************/
+        
+    .listgames .one-item-game{ margin-left:2px; margin-right:2px; }
+    .listgames .one-item-game .container-info{ width:125px; height:150px; }
+    .listgames .one-item-game .container-image .theimage{ width:125px; height:130px; }
+    
+    /***************************************************/
+    
+    .embed-game{ padding-bottom:110%; }
+    
+    
+    
+    /**********************************/
+    /* Version 1.1.7 */
+
+    .inhome .space-logo{ margin-top:20px; }
+    
+    #topbar .spacetop #options_top{ line-height:53px; }
+    
+    #activity-editor #activity-editor-bottom #bottom-accesories #icons .ico-attach{ padding:10px 10px; }
+    #activity-editor #activity-editor-bottom #bottom-accesories #icons .ico-attach-first{ padding:9px 0px; width:40px; }
+    #activity-editor #activity-editor-bottom #bottom-accesories #icons .ico-attach-first ._a ._b ._c{ width:40px; height:30px; }
+    
+    /* End Version 1.1.7 */
+    /**********************************/
+    
+    
+    /**********************************/
+    /* Version 1.2.0 */
+
+    #profile-header #username-header.inevent{ left:15px !important; bottom:72px !important; width:270px; }
+    #profile-header #type-event{ left:15px; bottom:50px; color: #fff; font-size:15px; }
+
+    /* End Version 1.2.0 */
+    /**********************************/
+    
+}
+
+/* END MOBILE LAYOUT */
+/*************************************************/

@@ -1,0 +1,32 @@
+Follow the steps below to generate your APK for your application:
+
+
+1. Load Android Studio (We have used Android Studio 3.0.1).
+
+2. Open Project in folder "App Android/iSocial".
+
+
+3. Open "iSocial\app\src\main\res\values\strings.xml", and change strings: "app_name" and "mgks_promo"
+
+4. Open "iSocial\app\src\main\java\com\isocial\webview\MainActivity.java", and change "String ASWV_URL" with the URL own.
+
+5. Change App Icon from "iSocial\app\src\main\res\raw" and "iSocial\app\src\main\res\mipmap-*" 
+
+6. Open "iSocial\app\src\main\AndroidManifest.xml", and locate the following string:
+
+   package="com.isocial.webview"
+
+   and place the cursor on the word "isocial" and press SHIFT+F6 to change the package name.
+
+7. Now you just have to generate the APK for your application.
+
+
+8. Done. 
+
+
+NOTE: We have used "Android Advanced WebView App" to generate our APK. You can get more information at:
+
+https://infeeds.com/u/mgks/25019/android-smart-webview-open-source-upload. 
+https://github.com/mgks/Android-SmartWebView
+
+

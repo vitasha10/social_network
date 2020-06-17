@@ -1,0 +1,1 @@
+<div style="padding:30px 10px; text-align:center;"><?php echo $this->lang('dashboard_notifications_msg_empty')?></div>
